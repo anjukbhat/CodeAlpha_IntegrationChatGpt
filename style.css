@@ -1,0 +1,94 @@
+*{
+    color:#fff;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: aqua;
+    display:flex;
+}
+h1{
+    font-size:33px;
+    font-weight:600px;
+    padding:200px 0;
+
+}
+
+.sidebar{
+    background-color: orange;
+    width:244px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 100vh;
+    width:100%;
+    
+}
+
+input{
+    border: none;
+    background-color: white;
+    color: black;
+    width:100%;
+    font-size:20px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    
+}
+.bottom-section{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-container{
+    position: relative;
+    width:100%;
+    max-width: 650px;
+}
+i{
+    color:darkblue;
+}
+.input-container #submit{
+    position: absolute;
+    right:0;
+    bottom: 15px;
+    cursor: pointer;
+}
+
+button{
+    border: solid 0.5px darkblue ;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.history{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.history p{
+    cursor:pointer;
+}
+nav p{
+    
+    margin-left: 35px;
+}
+
+
+
